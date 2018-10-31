@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/purchase" method="POST">
+                <!-- Note that the amount is in paise = 50 INR -->
+                <script
+                src="https://checkout.razorpay.com/v1/checkout.js"
+                data-key="rzp_live_dWvaJulQSeHzrX"
+                data-amount="1230000"
+                data-buttontext="PAY TO ABHILASH"
+                data-name="Root Print"
+                data-description="Purchase Description"
+                data-image="img/core-img/logo.png"
+                data-prefill.name="Root Print"
+                data-prefill.email=""
+                data-theme.color="#4caf50"
+                ></script>
+                <input type="hidden" value="Hidden Element" name="hidden">
+</form>
+
+</body>
+</html>
